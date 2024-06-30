@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "litematica-utils",
+	"version": "${version}",
+	"name": "litematica-utils",
+	"description": "An extension of Litematica that provides a collection of miscellaneous utilities.",
+	"authors": [
+		"Old Chum"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/litematica-util/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.oldchum.litematicautils.LitematicaUtils"
+		]
+	},
+	"mixins": [
+		"litematica-utils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
